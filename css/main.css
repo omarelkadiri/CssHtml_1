@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+margin : 0 ;
+padding : 0 ;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*   start nav-bare style */
+
+#nav {
+    position: fixed;
+    float: left;
+    background-color: #006599;
+    color: white;
+    height: 100vh;
+    width: 30%;
+    text-align: center;
+}
+
+.siderbar-header {
+    margin: 35px 0px ;
+}
+
+.siderbar-header > h1 {
+    font-weight:  400;
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    
+}
+
+.sidebir-body{
+    margin-top: 50px;
+}
+.sidebir-body  li {
+    list-style-type:none ;
+    margin: 35px ;
+    font-size: 18px;
+    /* text-align: left;
+    margin-left: 40px; */
+    
+}
+
+
+.sidebir-body  li > a {
+    color :white;
+    text-decoration: none;
+    font-weight: 250 ;
+    text-transform:capitalize;
+    
+    
+}
+
+.sidebir-body  li :hover {
+    color :yellowgreen;
+    
+}
+/*   End nav-bare style */
+
+
+/*   start content style */
+
+.content {
+    margin-left: 30%;
+}
+
+.margin-content {
+    margin: 40px 10%;
+}
+
+.header-content img {
+    width: 100%;
+}
+
+.content h1 {
+    margin: 3rem 0 ;
+    color: #006599;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content h2 {
+    margin: 2rem 0 ;
+    color: #006599;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 350;
+}
+
+.content  p ,
+#fin-footer p{
+    /* margin: 2rem  ; */
+    font-weight: 300;
+    line-height: 2;
+    font-size: 1.2rem;
+    color:#a4a5a8 ;
+
+}
+
+.welcome-content {
+    width: auto;
+}
+.content-about {
+    margin-top: 60px;
+}
+
+.about-image  img {
+    width: 100%;
+    height: 100%;
+}
+.about-image  {
+    float: left;
+    margin-right: 2rem;
+    width: 260px;
+    height: 600px;
+}
+.about-info p {
+    margin-left: 300px;
+}
+
+.about-info a {
+    background-color: #006599;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 60px;
+    margin: 20px auto 50px 50%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.about-info a:active,
+.about-info a:hover {
+    background-color:#2790c6;
+}
+
+
+.Gallery-one h2,
+.Second-Gallery h2,
+.Thrid-Gallery h2 {
+    text-align: left;
+}
+
+.img30 {
+    width: 33%;
+    height: 100%;
+
+}
+
+.img-row3 {
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.img25 {
+   width: 24%;
+   height: 100%;
+
+}
+
+.img-row4 {
+   height: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+
+.img20 {
+   width: 19%;
+   height: 100%;
+
+}
+
+.img-row5 {
+   height: 160px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+/* 
+.Thrid-Gallery {
+    text-align: center;
+  }
+
+  .img-row5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19%, 1fr)); 
+    gap: 10px;
+    height: 160px;
+    justify-content: space-evenly;
+  }
+
+  .img20 {
+    width: 100%; 
+    height: 100%; 
+    /* object-fit: cover; 
+  } 
+  */ 
+
+  .contacte {
+    float: left;
+    /* margin-right: 10%; */
+    display: flex;
+    flex-direction:column ;
+    /* width: 45%; */
+    color :#006599;
+  }
+
+  .contacte input {
+    color:#006599;
+    /* border: #006599; */
+  }
+
+  .Thrid-Gallery{
+    margin-bottom: 100px;
+  }
+
+footer{
+    display: grid;
+    grid-template-columns: 45% auto;
+    gap: 6%;
+}
+
+.contacte h2 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #2790c6;
+
+}
+
+.contacte input ,
+.contacte textarea{
+    width: 100%;
+    border: solid 1px #2790c6;
+    padding : 6px 10px;
+    margin: 15px 0px;
+    font-size: 18px;
+    outline :0px;
+}
+
+.contacte input::placeholder ,
+.contacte textarea::placeholder {
+    color: #2790c6;
+    font-weight: 100px;
+
+}
+
+.contacte input:hover,
+.contacte textarea:hover{
+    border: solid 1px #2790c6;
+}
+.contacte input:focus,
+.contacte textarea:focus{
+    border: solid 2px #2790c6;
+}
+
+.contacte input{
+    height: 35px;
+}
+
+#submit-bt{
+    padding: 15px 25px;
+    border: 0;
+    color:white;
+    background-color: #006599;
+}
+
+#submit-bt:focus,
+#submit-bt:hover{
+    background-color:#2790c6;
+
+}
+
+footer .info p {
+    margin-bottom: 30px ;
+}
+
+#fin-footer{
+    height: 25vh;
+    width: 70vw;
+    margin-left: 30vw;
+    background-color: #006599;
+}
+
+
+
+
+
